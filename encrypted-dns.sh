@@ -2,7 +2,7 @@
 
 CONF_DIR="/opt/encrypted-dns/etc"
 KEYS_DIR="/opt/encrypted-dns/etc/keys"
-CONFIG_FILE="${CONF_DIR}/encrypted-dns.toml"
+CONFIG_FILE="${CONF_DIR}/keys/encrypted-dns.toml"
 
 if [ ! -f "$KEYS_DIR/provider_name" ]; then
     exit 1
