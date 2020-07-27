@@ -11,7 +11,7 @@ KEYS_DIR="/opt/encrypted-dns/etc/keys"
 STATE_DIR="${KEYS_DIR}/state"
 LISTS_DIR="/opt/encrypted-dns/etc/lists"
 CONF_DIR="/opt/encrypted-dns/etc"
-CONFIG_FILE="${CONF_DIR}/encrypted-dns.toml"
+CONFIG_FILE="${CONF_DIR}/keys/encrypted-dns.toml"
 CONFIG_FILE_TEMPLATE="${CONF_DIR}/encrypted-dns.toml.in"
 
 init() {
